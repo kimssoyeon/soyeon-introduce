@@ -70,6 +70,8 @@ export const ContactTrigger = styled.button`
  font: inherit;
  cursor: pointer;
  color: var(--MainColor);
+ border: none;
+ outline: none;
 
  &:hover {
   color: var(--Hover);
@@ -85,6 +87,8 @@ export const Contacts = styled.div`
  margin-top: 10px;
  font: var(--HeadingMedium);
  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+ border: none;
+ outline: none;
 
  ${isTablet} {
   font: var(--HeadingSmall);
@@ -98,6 +102,8 @@ export const Contacts = styled.div`
 
   &:hover {
    color: var(--Hover) !important;
+   border: none;
+   outline: none;
   }
  }
 `;
